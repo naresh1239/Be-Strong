@@ -1,0 +1,29 @@
+ *{
+     margin: 0%;
+     box-sizing: border-box;
+     padding: 0%;
+
+ }
+ :root{
+    --text-color: #ef0d50;
+    --nav-logo: 'UnifrakturCook', cursive; /*for logo*/
+    --text: 'Oswald', sans-serif
+}
+
+ .about{
+    font-size: 7rem;
+    word-spacing: 30px;
+    font-family: 'Monoton', cursive;
+   color: var(--text-color);
+
+}
+
+@media only screen and (max-width: 445px) {
+    
+ .about{
+    font-size: 5rem;
+
+}
+    }
+
+

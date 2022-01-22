@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --text-color: #ef0d50;
+    --nav-logo: 'UnifrakturCook', cursive; /*for logo*/
+    --text: 'Oswald', sans-serif
+}
+.todo-h5{
+    font-size: 2rem !important;
+}
+
+.section-todo{
+    position: relative;
+}
+/* //todo */
+.be-healthy-todo{
+    font-size: 10rem;
+    word-spacing: 30px;
+    font-family: 'Monoton', cursive;
+    color: var(--text-color);
+    position: absolute;
+    top: 300px;
+    left: 20%;
+}
+.todo-box{
+    padding: 30px;
+    position: relative;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.24);
+    box-shadow: 8px 8px 25px rgba(0,0,0,0.15);
+    border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+.todo-box textarea{
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.212) !important;
+}
+.todo-box input{
+    background-color: rgba(255, 255, 255, 0.24);
+    border: 1px solid rgba(0, 0, 0, 0.212) !important;
+}
+.todo-box input:focus{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+.todo-box textarea:focus{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+.card{
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.363);
+}
+.bi{
+   cursor: pointer;
+   color: rgba(102, 101, 101, 0.781);
+   
+}.bi:hover{
+    color: #201f1f;
+}
+
+.first-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.second-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.65);
+    -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+.img-col .second-img{
+    transition: all 0.3s linear;
+}
+
+.img-col:hover .second-img{
+    -webkit-clip-path: polygon(0 1%, 0% 100%, 100% 0);
+    clip-path: polygon(0 1%, 0% 100%, 100% 0);
+}
+.first-img img, .second-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.note{
+    box-shadow: 8px 8px 25px rgba(0,0,0,0.15);
+    background-color: white;
+}
+@media only screen and (max-width: 452px) {
+
+    .challenge-text{
+        font-size: 2rem;
+   
+    
+}
+       }
+
+@media only screen and (max-width: 1465px) {
+
+    .be-healthy-todo{
+        font-size: 5rem;
+        display: flex;
+        justify-items: center;
+    }
+       }
+@media only screen and (max-width: 994px) {
+
+    .todo-box{
+        width: 100%;
+    }
+    .be-healthy-todo{
+        font-size: 3rem;
+        top: 30%;
+        left: 5%;
+        display: flex;
+        justify-items: center;
+    }
+    .be-healthy-todo{
+  
+        top: 300px;
+        display: flex;
+        justify-items: center;
+     
+    }
+       }
+    
+ 

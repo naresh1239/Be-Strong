@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+:root{
+    --text-color: #ef0d50;
+    --nav-logo: 'UnifrakturCook', cursive; /*for logo*/
+    --text: 'Oswald', sans-serif
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color:var(--text-color);
+    border-radius: 50%;
+  }
+  .hadding{
+      color: var(--text-color);
+  }
+  .inputbox{
+      position: relative;
+      width: 400px;
+      height: 400px;
+background: radial-gradient(circle, rgba(242,68,144,1) 0%, rgba(184,217,255,1) 100%);
+      border-radius: 10px;
+      box-shadow: 0px 4px 20px -7px black;
+      padding: 30px  50px;
+    
+  }
+  @media only screen and (max-width: 400px) {
+
+    .inputbox{
+        width: 300px;
+        padding: 30px 20px;
+    }
+    .main{
+        margin-top: -150px;
+    }
+
+    }
+
+  .inputbox label{
+      color: white;
+  }
+  .inputbox input{
+      outline: none;
+      border: none;
+  }
+  .inputbox button{
+      width: 100%;
+      background: white;
+      color: var(--text-color);
+      border: none;
+      outline: none;
+  }

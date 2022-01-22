@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+:root{
+    --text-color: #ef0d50;
+    --nav-logo: 'UnifrakturCook', cursive; /*for logo*/
+    --text: 'Oswald', sans-serif
+}
+footer{
+    padding: 20px 0;
+    background-color: rgb(22, 26, 34);
+}
+footer p{
+    color: white;
+    cursor: pointer;
+}
+.li{
+    border-radius: 50%;
+    list-style: none;
+    margin: 0 5px;
+        padding: 0 5px;
+        transition: all 0.3s linear;
+}
+.li a{
+    color: white;
+}
+.li:hover{
+    background-color: red;
+}
+.ul{
+    justify-content: center;
+}
+.footer p:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
