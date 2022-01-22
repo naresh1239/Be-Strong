@@ -1,5 +1,5 @@
 import React from 'react'
-
+import over from "../images/o2-min.jpg";
 const Obesity = () => {
     return (
         <>
@@ -19,7 +19,7 @@ const Obesity = () => {
                         </div>
                         <div className="col-lg-6 o col-12 position-relative">
                           <div className="img-section o-img text-center">
-                               <img src="./images/o2-min.jpg" className='img-fluid' alt="h" /> 
+                               <img src={over} className='img-fluid' alt="h" /> 
                              
                            </div> 
                          </div>

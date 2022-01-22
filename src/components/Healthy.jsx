@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
  import "./components-css/Healthy.css"
+ import hel from "../images/n1-min.jpg"
 const Healthy = () => {
     return (
         <>
@@ -23,7 +24,7 @@ const Healthy = () => {
         </div>
 
         <div className="div-img">
-        <img className='img-fluid' src="./images/n1-min.jpg" alt='d'/>
+        <img className='img-fluid' src={hel} alt='d'/>
         </div>
 
     </div>

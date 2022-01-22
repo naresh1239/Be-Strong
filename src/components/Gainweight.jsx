@@ -1,5 +1,7 @@
 import React from 'react'
 import "./components-css/Gainweight.css"
+import im from "../images/lose12-min.jpg"
+import mi from "../images/lose13-min.jpg"
 const Gainweight = () => {
     return (
         <>
@@ -23,7 +25,7 @@ const Gainweight = () => {
                    <div className="col-lg-6 col-12 mx-auto px-5 gain-flex text-center">
                    <div className="gain-card">
         <div className="top">
-   <img src="./images/lose12-min.jpg" alt="g"/>
+   <img src={im} alt="g"/>
         </div>
         <div className="buttom">
           <h1 className='welcome'>Ralph Waldo Emerson</h1>
@@ -34,7 +36,7 @@ const Gainweight = () => {
     {/* //secoud */}
     <div className="gain-card">
         <div className="top">
-   <img src="./images/lose13-min.jpg" alt="g"/>
+   <img src={mi} alt="g"/>
         </div>
         <div className="buttom">
           <h1>Arnold Schwarzenegger</h1>

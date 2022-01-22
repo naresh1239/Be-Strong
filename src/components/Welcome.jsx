@@ -1,4 +1,5 @@
 import React from 'react'
+import welcomeimg from "..//images/9-min.jpg";
 function Welcome() {
     return (
         <>
@@ -19,7 +20,7 @@ function Welcome() {
     </div>
     <div className="col-lg-6 col-12 text-center left-side">
     <h1 className='be-stong'>BE STRONG</h1>
-      <img src="./images/9-min.jpg" className="img-fluid shadow-lg bg-img min-vh-100" alt="gg" />
+      <img src={welcomeimg} className="img-fluid shadow-lg bg-img min-vh-100" alt="gg" />
 </div>
     </div>
   </div>
