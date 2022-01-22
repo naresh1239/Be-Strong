@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route,r, Navigate } from "react-router-dom";
 
 import "./App.css";
 
@@ -16,7 +16,8 @@ function App() {
     <>
  
         <Routes>
-        <Route path="*" element={<Home/>}></Route>
+        <Route path="*" element={<Navigate to="/" />}></Route>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/About" element={<About />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/Challenge" element={<Challenge />}></Route>
