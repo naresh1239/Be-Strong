@@ -142,7 +142,7 @@ cursor: pointer;
   object-fit: cover;
   background-color: red;
   z-index: 1;
-  background: url(../public/images/over6-min.jpg);
+  background: url(../images/over6-min.jpg);
   background-size: cover;
   background-position: 0;
   position: relative;
